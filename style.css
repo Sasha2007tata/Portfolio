@@ -1,118 +1,101 @@
-/* body{background: url(https://images.wallpaperscraft.ru/image/single/noutbuk_ekran_rabochij_stol_178819_1920x1080.jpg);} */
- 
-
-.право{width: 200px;
-    height: 300px;
-    color: rgb(255, 255, 255);
-}
-
-.лево{ margin-left: 900px;
-    width: 300px;
-    height: 50px;;
-}
-.верх{width: 1920px;
-    height: 200px;
-    display: flex;
-}
-ul{ display: flex;
-    color: rgb(255, 255, 255);
-}
-a{
-    color: rgb(253, 253, 253);
-}
-li{ font-size: x-large;
-    list-style-type: none;
-    margin-left: 60px;
-    margin-bottom: 60px;
-}
 h1{
-    font-size:xx-large;
-}
-.центр{text-align: center;
-    width: 500px;
-    height: 400px;
-    margin-top: 200px ; 
-  margin-left: 800px;
-  color: rgb(255, 255, 255);
-}
-.main{
-    width: 1920px;
-    height: 1080px;
-    background: url(https://images.wallpaperscraft.ru/image/single/noutbuk_ekran_rabochij_stol_178819_1920x1080.jpg);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 h2{
-    font-size: 35px;
-    font-style: normal;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    color: rgb(34, 34, 34);
 }
 h3{
-    font-style: normal;
-    font-size: 20px;
-}
-button{
-    border: 3px solid white;
-    background-color: transparent;
-    font-size: 20px;
-    padding: 5px 10px;
-    color: whitesmoke;
+    font-size: 28px;
     
 }
-h6{
-    font-size: xx-large;
-    text-align: center;
+h4{
+    font-size: 28px;
 }
-.line{
-   background-color: black;
-    width: 60px;
-    height: 2px;
- margin-left: 915px;
+h5{
+    font-size: 20px;
 }
-.rtx{background-color: rgb(255, 255, 255);
+a{font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px rgb(0, 217, 255) solid;
+}
+body{
+    background-color: rgb(255, 231, 167);
+}
+.main-top{
     width: 1000px;
     height: 300px;
-    margin-top: 100px;
-  margin-left: 450px;
-  display: flex;
-  
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616582465_54-p-chernii-fon-gradient-61.jpg);
 }
-.one{
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    background-color: rgba(102, 255, 0, 0.801);
-  margin: auto;
+.main-bottom{  
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction:  column;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616582465_54-p-chernii-fon-gradient-61.jpg);
 }
-.two{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(255, 0, 0);
-border-radius: 100px;
-margin: auto;
+.lessons-1{
+    width: 230px;
+    height: 120px;
+    background-color: rgb(205, 226, 21);
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
 }
-.three { 
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 17, 255);
-    border-radius: 100px;
-    margin: auto;}
-    .three:hover, .one:hover, .two:hover{
-        background-color: rgb(0, 0, 0);
-    }
-    .down{
-        width: 1920px;
-        height: 200px;
-        background-color: rgba(218, 42, 42, 0.842);
-        display: flex;
-        display: flex;
-        justify-content: center;
-    }
-    .ptx{
-        width: 50px;
-        height: 50px;
-        background-color: rgb(60, 184, 255);
-        border-radius: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .ptx:hover{
-        background-color: honeydew;
-    }
+.lessons-2{
+    width: 230px;
+    height: 120px;
+    background-color: rgb(44, 179, 27);
+    margin-left: 80px;
+}
+.div-top{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-top-2{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-bottom-2{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+.height{
+    width: 230px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+.down{
+    width: 230px;
+    height: 58px;
+    margin-top: 2px;
+}
