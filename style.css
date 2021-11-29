@@ -1,54 +1,40 @@
-a{
-    text-decoration: none;
-}
-nav{
-    font-family:cursive ;
-}
-ul{
-    background-color: darkorange;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
-li{
-color: #fff;
-background: darkorange;
-display: block;
-float: left;
-padding: 30px;
-position: relative;
-text-decoration: none;
-transition-duration: 0.5s;
-}
-li a{
-    color: rgb(255, 255, 255);
-}
-li:hover{
-    background-color: rgb(60, 255, 0);
-    cursor: pointer;
-}
-ul li ul{
-    background: orange;
-    visibility: hidden;
-    min-width: 5rem;
-    position: absolute;
-    margin-top: 15px;
-    display: none;
+.col{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 550px;
+    margin-left: 40px;
     position: relative;
-    left: 20px;
-}
-ul li:hover > ul, ul li ul:hover{
-    visibility: visible;
-    display: block;
-}
-ul li ul li {
-    clear: both;
-    width: 100%;
+    border-radius: 50px;
+    
 }
 body{
-    background-color: black;
+    background-color: rgb(255, 252, 215);
 }
-nav ul ul ul li{
-    width: 170px;
-    display: block;
+
+.row{position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+a{color: black;
+    text-decoration: none;
+}
+
+
+.fill:active{
+    vertical-align: middle;
+    fill: black;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.qwe{
+    margin-left: 550px;
+}
+.pay{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(255, 217, 0);
+    margin-left: 500px;
+    margin-top: 20px;
 }
